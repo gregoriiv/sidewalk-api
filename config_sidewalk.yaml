@@ -1,0 +1,16 @@
+# Configuration file for request Sidewalk API
+
+VARIABLES_SET: 
+  #set attributes request
+  attributes:
+    #Label types : ['CurbRamp', 'NoSidewalk', 'Occlusion', 'SurfaceProblem', 'Obstacle', 'Other', 'NoCurbRamp']
+    label_types: []
+    #severity from 0 to 5 should be min > max
+    severity_min: 4
+    severity_max: 5 
+  
+  #define attributes for SidewalkScoreRequest() 'streets' for streets score, 'neighborhoods' for neighborhoods score
+  score_request: 'streets'
+  
+  path: 'F:\SPGG_GOAT\data\study_area'
+  #'F:\Privat\Study\TUM\Environmental_Engineering_18.19\WiSe2021\MasterT\Sidewalk_API\SPGG_test_shp\SPGG_test'
